@@ -6,7 +6,7 @@ const error404 = document.querySelector(".not-found");
 const cityHide = document.querySelector(".city-hide");
 
 search.addEventListener('click', () => {
-    const APIKey = process.env.REACT_APP_WEATHER_API_KEY;
+    const APIKey = '9882f7a2f030a802bae35da5cd480881';
     const city = document.querySelector('.search-box input').value;
 
     if (city == "")
